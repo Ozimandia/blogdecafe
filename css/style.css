@@ -29,8 +29,8 @@ body {
 
 /*globales*/
 .contenedor {
-    max-width: 120rem;
-    width: 90%;
+   
+    width: min(90%, 120rem);
     margin: 0 auto;
 }
 
@@ -91,7 +91,9 @@ img {
     color: var(--blanco);
     margin-top: 5rem;
 }
-
+.barra{
+    padding-top: 4rem;
+}
 @media (min-width: 768px){
    .header__texto{
     margin-top: 15rem;
@@ -184,4 +186,9 @@ font-weight: 400;
 .widget-curso__label,
 .widget-curso__info{
 font-size: 2rem;
+}
+.footer {
+    background-color: var(--negro);
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
