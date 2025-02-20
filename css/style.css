@@ -235,7 +235,7 @@ font-size: 2rem;
 /*Contacto*/
 
 .contacto-bg{
-    background-image: url(../img/contacto.jpg);
+    background-image: url(../img/contacto.webp);
     height: 40rem;
     background-size: cover;
     background-repeat: no-repeat;
